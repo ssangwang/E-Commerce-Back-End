@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
-
+require('dotenv').config();
 const sequelize = require('../config/connection.js');
 
 class Category extends Model {}

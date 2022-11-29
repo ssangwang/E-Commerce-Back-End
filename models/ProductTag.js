@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
-
+require('dotenv').config();
 class ProductTag extends Model {}
 
 ProductTag.init(
